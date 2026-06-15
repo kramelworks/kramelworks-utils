@@ -1,4 +1,14 @@
 {
+  "name": "@kramelworks/utils",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "@types/node": "^25.9.3",
     "tsx": "^4.22.4",
